@@ -1,12 +1,10 @@
 {
-  "homepage": "https://satyamraj1643.github.io/Homyz",
   "name": "realestate",
   "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -19,7 +17,6 @@
     "@mui/material": "^5.15.4",
     "@mui/styled-engine-sc": "^6.0.0-alpha.12",
     "framer-motion": "^10.8.5",
-    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-accessible-accordion": "^5.0.0",
     "react-countup": "^6.4.2",
