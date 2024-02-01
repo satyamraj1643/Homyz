@@ -1,8 +1,10 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Homyz2/', // Set the base path here
+  base: '/Homyz2/',
   plugins: [react()],
+  build: {
+    outDir: 'build', // Specify the desired output directory here
+  },
 });
